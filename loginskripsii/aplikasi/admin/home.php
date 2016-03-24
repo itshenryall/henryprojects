@@ -1,0 +1,71 @@
+
+<?php
+// memulai session
+error_reporting(0);
+session_start();
+if (isset($_SESSION['level']))
+{
+	// jika level admin
+	if ($_SESSION['level'] == "admin")
+   {   
+
+
+?>
+
+<html>
+<head>
+<title>Pemilihan Bidang Keahlian</title>
+<script language='JavaScript'>
+  var txt=" SPK Pemilihan Bidang Keahlian |  ";
+  var kecepatan=200;var segarkan=null;
+  function bergerak() { document.title=txt;
+    txt=txt.substring(1,txt.length)+txt.charAt(0);
+    segarkan=setTimeout("bergerak()",kecepatan);
+  }bergerak();
+</script>
+<link href="style.css" type="text/css" rel="stylesheet" />
+<link rel='icon'  href='../../img/logo.jpg'></link>
+</head>
+<body><?php include "header.php"; ?>
+<br>
+<br><br>
+
+
+
+
+<div class="conten">
+<center>
+<h1><marquee><font color="#666666";>Selamat Datang Di Halaman Admin</font></marquee></h1>
+</center>
+</div>
+
+<div class="footer">
+<?php include "footer.php"; ?>
+</div>
+
+
+</div>
+
+
+</body>
+</html>
+<?php
+   }
+   else if ($_SESSION['level'] == "user")
+   {
+       header('location:../user/homeuser.php');
+   }
+   else
+{
+	?><script language="javascript">
+	alert("Halaman Admin, Silahkan LOGIN");
+	document.location="../../login.php";
+	</script>
+	<?php
+}
+}  
+if (!isset($_SESSION['level']))
+{
+	header('location:../../login.php');
+}
+?>

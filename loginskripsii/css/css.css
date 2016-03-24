@@ -1,0 +1,25 @@
+.ini{
+	color: red;
+	font-size: 20;
+	text-align: center;
+}
+*::-moz-selection {
+    background: none repeat scroll 0% 0% rgba(44, 255, 211, 244);
+}
+input.button-submit {
+background-color: #1497EC;
+		color: #fff;
+		float: left;
+		width: 70px;
+		height: 30px;
+}
+input.button-reset 
+{
+background-color: firebrick;
+		color: #fff;
+		float: left;
+		width: 70px;
+		height: 30px;
+}
+
+

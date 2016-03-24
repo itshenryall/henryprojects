@@ -1,0 +1,79 @@
+/* CSS Document */
+body{
+background-image:url(../img/bg.jpg);
+background-attachment:fixed;
+background-repeat:repeat;
+}
+
+
+TH {
+color : #FFFFFF;
+background-color : #666666;
+border-width: 1px ;
+border-style:solid;
+border-color :black ;
+
+}
+
+
+#container{
+margin-top:2%;
+margin-left:12%;
+margin-right:12%;
+margin-bottom:auto;
+background-color:white;
+
+-moz-box-shadow: 0 0 5px 5px black;
+-webkit-box-shadow: 0 0 5px 5px black;
+box-shadow: 0 0 5px 5px blcak;
+height:auto;
+}
+
+.header{
+background-color:white;
+margin-top:15px;
+padding:40px;
+}
+
+.conten{
+background-color:white;
+height:auto;
+margin-left:5%;
+margin-right:5%;
+}
+
+#footer{
+margin-top:100px;
+margin-bottom:20px;
+color:black;
+height:inherit;
+text-indent:40px;
+
+}
+
+
+p {color:#000000;
+font-family:"Times New Roman", Times, serif;
+font-size:16px;
+padding-left:40px;
+padding-right:40px;
+text-align:justify;
+text-indent:40px;
+}
+
+#navigation {
+padding-top:30px;
+	width:100%;
+	text-align:center;
+	font-family:Algerian;
+	font-size:18px;
+	}
+	
+a:link{color:black;
+		text-decoration:blink;}
+a:visited{color:black;
+		text-decoration:blink;}
+a:hover{color:blue;
+		text-decoration:blink;}
+a:active{color:cyan;
+		text-decoration:blink;}

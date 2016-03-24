@@ -1,0 +1,94 @@
+.nav a {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+display: inline;
+  
+}
+
+.jumbotron {
+  
+  height: 500px;
+}
+
+.jumbotron2 {
+
+  height: 300px;
+}
+.jumbotron2 .container {
+  position: center;
+  top:100px;
+}
+.jumbotron3 {
+
+  height: 150px;
+}
+.jumbotron2 .container {
+  position: center;
+  top:100px;
+}
+
+.jumbotron2 h2 {
+  position: relative;
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+.jumbotron2 p {
+  font-size: 14px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.neighborhood-guides {
+    background-color: #efefef;
+    border-bottom:1px solid #dbdbdb;
+}
+
+.neighborhood-guides h2{
+    color: #399c3d;
+    font-size: 24px;
+}
+
+.neighborhood-guides p{
+    font-size: 15px;
+    margin-bottom: 13px
+}
+
